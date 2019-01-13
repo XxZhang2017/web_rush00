@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="views/stylesheets/style.css"/>
+	</head>
+
+	<body>
+		<div id="container">
+
+
+							<!-- Header -->
+							<div id="header">
+								<h1>&#10037;&AElig;ternal Store Login&#10037;</h1>
+							</div>
+
+				<div id="nav">
+					<h3 id="category">Categories</h3>
+
+					<ul>
+						<!-- Dynamically Generate These -->
+						<script>
+						//have to figure out how to pull these from the database
+							for (var i = 0; i < 10; i++) {
+								//document.write("<li class=\"items\"id=\"" + "item_" + i + "\">Hello World!Have a nice day!</li>");
+							}
+
+						</script>
+						<form id="search">
+							<input id="text" maxlength="100"></input>
+							<button>search</button>
+						</form>
+					</ul>
+						<a href="http://localhost:3000/login"><h3 id="login">login</h3></a>
+						<a href="http://localhost:3000/cart"><h3 id="cart">cart &#128722;</h3></a>
+				</div>
+
+
+				<div id="main">
+					<div id="login-form" class="column">
+						<form id="userinfo">
+              <p>Enter your email</p>
+              <input id="email"></input>
+              <br>
+              <p id="paddpass">Enter your password</p>
+              <input id="password" type="password"></input>
+              <br>
+              <button id="submit">Submit</button>
+							<br>
+							<p>Not registered yet? <a href="http://localhost:3000/register" id="click-here">Click Here</a></p?
+            </form>
+					</div>
+				</div>
+
+				<div id="shop-link">
+				</div>
+
+				<div id="footer">
+					<p id="copyright">&#169; efriedma 2019</p>
+				</div>
+
+			</div>
+	</body>
+</html>

@@ -1,0 +1,233 @@
+#container {
+	width: 100%;
+	position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+	/*background-color: blue;*/
+}
+
+h1 {
+	font-style: Times;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+
+#header {
+	padding: 15px;
+}
+
+h3 {
+	font-style: Times;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;   /* Height of the footer */
+	padding: 0px;
+	background-color: #00CCFF;
+	text-align: right;
+	clear: both;
+}
+
+#copyright {
+	padding-right: 20px;
+}
+
+.items {
+	font-size: 20px;
+	color: red;
+}
+
+#nav {
+	padding: 10px;
+	height: 60px;
+	width: 70%;
+	background-color: #59b300;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	/*text-align: left;*/
+}
+
+#category {
+	position: absolute;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 50%;
+}
+
+#search {
+	position: relative;
+	text-color: red;
+	width: 50%;
+	float: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#text {
+	width: 400px;
+}
+
+#login {
+	position: absolute;
+	color: white;
+	float: right;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10px;
+	right: 15px;
+}
+
+#cart {
+	position: absolute;
+	color: white;
+	float: right;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10px;
+	right: 70px;
+}
+
+input {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*div for all login info*/
+#login-form {
+	position: relative;
+	height: 30%;
+	width: 15%;
+	margin-left: 35%;
+	margin-right: 35%;
+	top: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	color: white;
+}
+
+#email {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+button {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin: 10px;
+	top: 40%;
+}
+
+#userinfo {
+	position: absolute;
+	border-color: red;
+	left: 50%;
+	top: 50%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+
+#paddpass {
+	margin-top: 75px;
+	}
+
+#submit {
+	margin-top: 50px;
+}
+/* for testing purposes
+div {
+    border: 1px solid red;
+}
+*/
+
+#click-here {
+	color: white;
+}
+
+#cartmain {
+	position: fixed;
+	left: 25%;
+	right: 25%;
+	top: 250px;
+	width: 40%;
+	height: 90%;
+	background-color: white; /* #4ddbff;*/
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.8;
+}
+
+#cartitems {
+	opacity: 0.5;
+	position: fixed;
+	display: block;
+	width: 40%;
+	height: 1000px;
+}
+
+#current-cart {
+	color: black;
+}
+
+#checkout {
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	right: 49%;
+	bottom: 70px;
+	top: auto;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #4ddbff
+    }
+
+		4% {
+			background-color: #4ddbff;
+		}
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}

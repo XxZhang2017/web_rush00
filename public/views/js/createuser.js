@@ -1,0 +1,1 @@
+alert("Created new user");
