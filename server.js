@@ -15,10 +15,14 @@ app.get('/login', (req, res) => { res.sendFile(path.join(__dirname + '/public/vi
 app.get('/register', (req, res) => {res.sendFile(path.join(__dirname + '/public/views/register.html'))})
 app.get('/cart', (req, res) => {res.sendFile(path.join(__dirname + '/public/views/cart.html'))})
 
+
 //app.post('/register', (req, res) => {
 
 
 //})
+
+
+
 
 app.post('/', function (req, res) {res.send('POST request to the homepage')})
 

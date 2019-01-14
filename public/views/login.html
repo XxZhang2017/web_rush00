@@ -36,14 +36,14 @@
 
 				<div id="main">
 					<div id="login-form" class="column">
-						<form id="userinfo">
+						<form id="userinfo" action = "auth" method = "POST">
               <p>Enter your email</p>
-              <input id="email"></input>
+              <input id="email" type = "text" name = 'user_email'></input>
               <br>
               <p id="paddpass">Enter your password</p>
-              <input id="password" type="password"></input>
+              <input id="password" type="password" name = 'user_password'></input>
               <br>
-              <button id="submit">Submit</button>
+              <button id="submit" type = 'submit'>Submit</button>
 							<br>
 							<p>Not registered yet? <a href="http://localhost:3000/register" id="click-here">Click Here</a></p?
             </form>
